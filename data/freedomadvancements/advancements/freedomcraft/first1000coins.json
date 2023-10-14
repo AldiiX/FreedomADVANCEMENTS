@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "BUSINESS MAN",
+            "color": "dark_purple",
+            "bold": true
+        },
+        "description": {
+            "text": "Vydělal/a sis svých prvních 1000 coinů.",
+            "color": "white",
+			"bold": false
+        },
+        "icon": {
+            "item": "minecraft:chorus_fruit"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cmd": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "freedomcraft:hidden/fcftadv"
+    },
+    "parent": "freedomadvancements:freedomcraft/first100coins"
+}

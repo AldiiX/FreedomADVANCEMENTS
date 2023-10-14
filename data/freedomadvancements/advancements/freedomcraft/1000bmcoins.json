@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "KRVAVÝ KUPEC",
+            "color": "red",
+            "bold": true
+        },
+        "description": {
+            "text": "Měj na účtě víc jak 1000 Krvavých peněz.",
+            "color": "white",
+            "bold": false
+        },
+        "icon": {
+            "item": "minecraft:emerald",
+            "nbt": "{CustomModelData:2}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cmd": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "freedomcraft:hidden/fcftadv"
+    },
+    "parent": "freedomadvancements:freedomcraft/killedbloodmoonbossagain"
+}

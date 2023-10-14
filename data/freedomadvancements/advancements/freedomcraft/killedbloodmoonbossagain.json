@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "VÝHRA ZNOVU A ZNOVU!",
+            "color": "red",
+            "bold": true
+        },
+        "description": {
+            "text": "Opět jsi porazil/a Bosse krvavého měsíce.",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:redstone"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cmd": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "freedomcraft:hidden/fcftadv"
+    },
+    "parent": "freedomadvancements:freedomcraft/killedbloodmoonboss"
+}

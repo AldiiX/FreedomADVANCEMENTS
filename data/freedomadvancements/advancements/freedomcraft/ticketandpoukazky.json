@@ -1,0 +1,33 @@
+{
+    "__comment": "by: AldiiX",
+    "display": {
+        "title": {
+            "text": "PŘÍSTROJ SE ROZBIL!",
+            "color": "yellow",
+            "bold": true
+        },
+        "description": {
+            "text": "Co se stalo? Tys rozbil/a přístroj na poukázky??",
+            "color": "white",
+            "bold": false
+        },
+        "icon": {
+            "item": "minecraft:blast_furnace"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "cmdsonly": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 10,
+        "function": "freedomcraft:hidden/fcftadv"
+    },
+	"parent": "freedomadvancements:freedomcraft/fcvirus"
+}

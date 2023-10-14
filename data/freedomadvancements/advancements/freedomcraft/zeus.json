@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "PŘESNĚ JAKO ZEUS",
+            "color": "yellow",
+            "bold": true
+        },
+        "description": {
+            "text": "Poprvé jsi použil/a Lightning Sword.",
+            "color": "white",
+            "bold": false
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:2}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cmd": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "freedomcraft:hidden/fcftadv"
+    },
+    "parent": "freedomadvancements:freedomcraft/enderman"
+}

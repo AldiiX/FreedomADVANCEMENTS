@@ -1,0 +1,34 @@
+{
+    "__comment": "by: AldiiX",
+    "display": {
+        "title": {
+            "text": "PÁN KRVAVÉHO MĚSÍCE",
+            "color": "red",
+            "bold": true
+        },
+        "description": {
+            "text": "Zabil/a jsi Bosse krvavého měsíce.",
+            "color": "white",
+            "bold": false
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:3}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false,
+        "background": "minecraft:textures/gui/advancements/backgrounds/stone.png"
+    },
+    "criteria": {
+        "cmdsonly": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "experience": 10,
+        "function": "freedomcraft:hidden/fcftadv"
+    },
+	"parent": "freedomadvancements:freedomcraft/root"
+}

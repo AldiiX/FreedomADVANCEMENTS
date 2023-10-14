@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "NEJLEPŠÍ DJ",
+            "color": "yellow",
+            "bold": true
+        },
+        "description": {
+            "text": "Spusť si písničky pomocí rádia.",
+            "color": "white",
+            "bold": false
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:7}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cmd": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "freedomcraft:hidden/fcftadv"
+    },
+    "parent": "freedomadvancements:freedomcraft/kosa"
+}

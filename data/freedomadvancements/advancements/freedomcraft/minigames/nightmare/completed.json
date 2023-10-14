@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "PROBUZENÍ",
+            "color": "green",
+            "bold": true
+        },
+        "description": {
+            "text": "Dohrál/a jsi minihru Nightmare.",
+            "color": "white",
+            "bold": false
+        },
+        "icon": {
+            "item": "minecraft:lime_bed"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cmd": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "freedomcraft:hidden/fcftadv"
+    },
+    "parent": "freedomadvancements:freedomcraft/minigames"
+}

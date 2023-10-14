@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "MAJITEL OSTROVA",
+            "color": "green",
+            "bold": true
+        },
+        "description": {
+            "text": "Kup si ostrov.\n§o*Tento advancement ti musí udělit administrátor.",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:grass_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cmd": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "freedomcraft:hidden/fcftadv"
+    },
+    "parent": "freedomadvancements:freedomcraft/ownerofplot"
+}

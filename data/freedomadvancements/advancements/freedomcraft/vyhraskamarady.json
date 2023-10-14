@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "VÝHRA S KAMARÁDY",
+            "color": "yellow",
+            "bold": true
+        },
+        "description": {
+            "text": "Porazil/a jsi Pána krvavého měsíce s tvými kamarády.",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:gold_nugget"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cmd": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "freedomcraft:hidden/fcftadv"
+    },
+    "parent": "freedomadvancements:freedomcraft/killedbloodmoonbossagain"
+}

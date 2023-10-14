@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "SPIIIIRÁÁÁLA",
+            "color": "green",
+            "bold": true
+        },
+        "description": {
+            "text": "Dohrál/a jsi parkour mapu SPIRAL.",
+            "color": "white",
+            "bold": false
+        },
+        "icon": {
+            "item": "minecraft:emerald"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cmd": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "freedomcraft:hidden/fcftadv"
+    },
+    "parent": "freedomadvancements:freedomcraft/enterparkour"
+}

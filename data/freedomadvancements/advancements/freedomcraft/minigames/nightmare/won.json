@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "HROZNÁ NOČNÍ MŮRA",
+            "color": "white",
+            "bold": true
+        },
+        "description": {
+            "text": "Vyhrál/a jsi Nightmare s více jak 15 goldy.",
+            "color": "white",
+            "bold": false
+        },
+        "icon": {
+            "item": "minecraft:cobweb"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cmd": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "freedomcraft:hidden/fcftadv"
+    },
+    "parent": "freedomadvancements:freedomcraft/minigames/nightmare/completed"
+}

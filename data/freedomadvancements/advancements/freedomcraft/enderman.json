@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "ENDERMAN",
+            "color": "dark_purple",
+            "bold": true
+        },
+        "description": {
+            "text": "Teleportuj se pomocí Teleporteru do teleportária.",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:1}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cmd": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "freedomcraft:hidden/fcftadv"
+    },
+    "parent": "freedomadvancements:freedomcraft/kupec"
+}

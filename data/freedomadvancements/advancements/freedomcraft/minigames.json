@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "HRÁČ MINIHER",
+            "color": "yellow",
+            "bold": true
+        },
+        "description": {
+            "text": "Vstoupil/a jsi do světa miniher.",
+            "color": "white",
+            "bold": false
+        },
+        "icon": {
+            "item": "minecraft:gold_block"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cmd": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "freedomcraft:hidden/fcftadv"
+    },
+    "parent": "freedomadvancements:freedomcraft/root"
+}

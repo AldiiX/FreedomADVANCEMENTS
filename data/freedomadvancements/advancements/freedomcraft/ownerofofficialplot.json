@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "TVÁ PARCELA.. NEBO VLASTNĚ NE",
+            "color": "gold",
+            "bold": true
+        },
+        "description": {
+            "text": "Prodej svojí parcelu serveru a tím pádem parcelu necháš jako oficiální.\n§o*Tento advancement ti musí udělit administrátor.",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:sunflower"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cmd": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "freedomcraft:hidden/fcftadv"
+    },
+    "parent": "freedomadvancements:freedomcraft/ownerofplot"
+}

@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "MAJITEL PARCELY",
+            "color": "dark_blue",
+            "bold": true
+        },
+        "description": {
+            "text": "Kup si parcelu na spawnu, nebo si kup ostrov.\n§o*Tento advancement ti musí udělit administrátor.",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:lapis_lazuli"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cmd": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "freedomcraft:hidden/fcftadv"
+    },
+    "parent": "freedomadvancements:freedomcraft/root"
+}

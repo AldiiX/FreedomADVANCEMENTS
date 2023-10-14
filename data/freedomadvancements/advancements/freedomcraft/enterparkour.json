@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "UŽ JSEM JAKO TARY!",
+            "color": "red",
+            "bold": true
+        },
+        "description": {
+            "text": "Poprvé sis zahrál/a parkourovou mapu.",
+            "color": "white",
+            "bold": false
+        },
+        "icon": {
+            "item": "minecraft:target"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": true
+    },
+    "criteria": {
+        "cmd": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "freedomcraft:hidden/fcftadv"
+    },
+    "parent": "freedomadvancements:freedomcraft/minigames"
+}

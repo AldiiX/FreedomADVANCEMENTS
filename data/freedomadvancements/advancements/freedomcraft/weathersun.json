@@ -1,0 +1,31 @@
+{
+    "display": {
+        "title": {
+            "text": "LETNÍ SLUNOVRAT",
+            "color": "orange",
+            "bold": true
+        },
+        "description": {
+            "text": "Použij měnič počasí.",
+            "color": "white",
+            "bold": false
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:4}"
+        },
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cmd": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "freedomcraft:hidden/fcftadv"
+    },
+    "parent": "freedomadvancements:freedomcraft/zeus"
+}

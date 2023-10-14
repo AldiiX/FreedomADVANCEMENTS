@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "FRIENDSHIP",
+            "color": "yellow",
+            "bold": true
+        },
+        "description": {
+            "text": "Tento advancement získáš, pokud s tvým kamarádem se navzájem linknete přes Talisman Přátelství",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:carrot_on_a_stick",
+            "nbt": "{CustomModelData:20}"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cmd": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "freedomcraft:hidden/fcftadv"
+    },
+    "parent": "freedomadvancements:freedomcraft/kupec"
+}

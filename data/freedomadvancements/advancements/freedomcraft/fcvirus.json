@@ -1,0 +1,30 @@
+{
+    "display": {
+        "title": {
+            "text": "FREEDOMCRAFT VIRUS",
+            "color": "red",
+            "bold": true,
+            "italic": false
+        },
+        "description": {
+            "text": "Nakazil ses neznámým FreedomCRAFT virusem, který tě nutí aktivně hrát na FreedomCRAFTu. Jak ses nakazil/a ale není známo.",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:red_mushroom_block"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cmd": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "freedomcraft:hidden/fcftadv"
+    },
+    "parent": "freedomadvancements:freedomcraft/claimedbonuscode"
+}
