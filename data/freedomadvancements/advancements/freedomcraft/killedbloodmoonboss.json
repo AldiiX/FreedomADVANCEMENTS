@@ -3,11 +3,11 @@
     "display": {
         "title": {
             "text": "PÁN KRVAVÉHO MĚSÍCE",
-            "color": "red",
+            "color": "#ff0000",
             "bold": true
         },
         "description": {
-            "text": "Zabil/a jsi Bosse krvavého měsíce.",
+            "text": "Zabij Pána Krvavého měsíce",
             "color": "white",
             "bold": false
         },

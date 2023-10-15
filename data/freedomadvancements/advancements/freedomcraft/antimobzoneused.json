@@ -1,19 +1,19 @@
 {
     "display": {
         "title": {
-            "text": "HROZNÁ NOČNÍ MŮRA",
-            "color": "white",
+            "text": "ŠTÍT PROTI MOBŮM",
+            "color": "#FFA500",
             "bold": true
         },
         "description": {
-            "text": "Vyhraj Nightmare s více jak 15 goldy",
-            "color": "white",
-            "bold": false
+            "text": "Deployni Antimob zónu a počkej, než se aktivuje",
+            "color": "white"
         },
         "icon": {
-            "item": "minecraft:cobweb"
+            "item": "minecraft:prismarine_crystals",
+            "nbt": "{CustomModelData:5}"
         },
-        "frame": "challenge",
+        "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
         "hidden": false
@@ -26,5 +26,5 @@
     "rewards": {
         "function": "freedomcraft:hidden/fcftadv"
     },
-    "parent": "freedomadvancements:freedomcraft/minigames/nightmare/completed"
+    "parent": "freedomadvancements:freedomcraft/radio"
 }

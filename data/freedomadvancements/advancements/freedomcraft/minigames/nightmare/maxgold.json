@@ -1,17 +1,17 @@
 {
     "display": {
         "title": {
-            "text": "HROZNÁ NOČNÍ MŮRA",
-            "color": "white",
+            "text": "JACKPOT",
+            "color": "yellow",
             "bold": true
         },
         "description": {
-            "text": "Vyhraj Nightmare s více jak 15 goldy",
+            "text": "Vyhraj Nightmare s maximálním počtem goldů",
             "color": "white",
             "bold": false
         },
         "icon": {
-            "item": "minecraft:cobweb"
+            "item": "minecraft:gold_ingot"
         },
         "frame": "challenge",
         "show_toast": true,
@@ -26,5 +26,5 @@
     "rewards": {
         "function": "freedomcraft:hidden/fcftadv"
     },
-    "parent": "freedomadvancements:freedomcraft/minigames/nightmare/completed"
+    "parent": "freedomadvancements:freedomcraft/minigames/nightmare/won"
 }

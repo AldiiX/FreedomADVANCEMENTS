@@ -6,7 +6,7 @@
             "bold": true
         },
         "description": {
-            "text": "Poprvé jsi použil/a Lightning Sword.",
+            "text": "Použij Lightning Sword",
             "color": "white",
             "bold": false
         },
@@ -17,7 +17,7 @@
         "frame": "task",
         "show_toast": true,
         "announce_to_chat": true,
-        "hidden": false
+        "hidden": true
     },
     "criteria": {
         "cmd": {

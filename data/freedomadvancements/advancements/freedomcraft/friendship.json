@@ -6,7 +6,7 @@
             "bold": true
         },
         "description": {
-            "text": "Tento advancement získáš, pokud s tvým kamarádem se navzájem linknete přes Talisman Přátelství",
+            "text": "Měj Talisman Přátelství linknutý na kamaráda, který má linknutý tebe.",
             "color": "white"
         },
         "icon": {

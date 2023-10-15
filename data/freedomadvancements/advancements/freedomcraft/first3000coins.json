@@ -1,17 +1,20 @@
 {
     "display": {
         "title": {
-            "text": "TAKE ME HOME, AETHER ROADS",
-            "color": "yellow",
+            "_text": "TAKE ME HOME, AETHER ROADS",
+            "text": "SELFMADE BUSINESS MAN",
+            "color": "#C4C4C4",
             "bold": true
         },
         "description": {
-            "text": "Vydělal/a sis svých prvních 3000 coinů a proto se ti otevřel vstup to Aetheru!",
+            "_text": "Vydělal/a sis svých prvních 3000 coinů a proto se ti otevřel vstup to Aetheru!",
+            "text": "Měj na účtě 3000 FC",
             "color": "white",
 			"bold": false
         },
         "icon": {
-            "item": "minecraft:feather"
+            "_item": "minecraft:feather",
+            "item": "minecraft:netherite_ingot"
         },
         "frame": "challenge",
         "show_toast": true,

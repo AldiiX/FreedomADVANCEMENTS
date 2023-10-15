@@ -1,17 +1,17 @@
 {
     "display": {
         "title": {
-            "text": "PRVNÍ STOVKA",
+            "text": "APOKALYPSA",
             "color": "dark_green",
             "bold": true
         },
         "description": {
-            "text": "Vydělal sis prvních 100 coinů.",
+            "text": "Dohraj Nightmare s kamarády",
             "color": "white",
-			"bold": false
+            "bold": false
         },
         "icon": {
-            "item": "minecraft:oak_sapling"
+            "item": "minecraft:zombie_head"
         },
         "frame": "task",
         "show_toast": true,
@@ -26,5 +26,5 @@
     "rewards": {
         "function": "freedomcraft:hidden/fcftadv"
     },
-    "parent": "freedomadvancements:freedomcraft/kupec"
+    "parent": "freedomadvancements:freedomcraft/minigames/nightmare/completed"
 }

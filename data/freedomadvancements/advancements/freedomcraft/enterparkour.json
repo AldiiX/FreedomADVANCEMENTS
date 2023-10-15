@@ -6,7 +6,7 @@
             "bold": true
         },
         "description": {
-            "text": "Poprvé sis zahrál/a parkourovou mapu.",
+            "text": "Zahraj si parkourovou minihru.",
             "color": "white",
             "bold": false
         },
@@ -26,5 +26,5 @@
     "rewards": {
         "function": "freedomcraft:hidden/fcftadv"
     },
-    "parent": "freedomadvancements:freedomcraft/minigames"
+    "_parent": "freedomadvancements:freedomcraft/minigames"
 }

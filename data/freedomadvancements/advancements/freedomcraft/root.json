@@ -24,8 +24,5 @@
         "cmdsonly": {
             "trigger": "minecraft:impossible"
         }
-    },
-    "rewards": {
-        "experience": 10
     }
 }

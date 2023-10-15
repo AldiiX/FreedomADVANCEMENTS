@@ -1,12 +1,12 @@
 {
     "display": {
         "title": {
-            "text": "BUSINESS MAN",
+            "text": "MILÉNIUM",
             "color": "dark_purple",
             "bold": true
         },
         "description": {
-            "text": "Vydělal/a sis svých prvních 1000 coinů.",
+            "text": "Měj na účtě 1000 coinů",
             "color": "white",
 			"bold": false
         },
@@ -26,5 +26,5 @@
     "rewards": {
         "function": "freedomcraft:hidden/fcftadv"
     },
-    "parent": "freedomadvancements:freedomcraft/first100coins"
+    "parent": "freedomadvancements:freedomcraft/root"
 }
