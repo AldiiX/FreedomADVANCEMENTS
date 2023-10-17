@@ -1,0 +1,29 @@
+{
+    "display": {
+        "title": {
+            "text": "COLLECTOR",
+            "color": "#FFFD9A",
+            "bold": true
+        },
+        "description": {
+            "text": "Kup si v Oficiálním shopu 1000 XP.",
+            "color": "white"
+        },
+        "icon": {
+            "item": "minecraft:experience_bottle"
+        },
+        "frame": "challenge",
+        "show_toast": true,
+        "announce_to_chat": true,
+        "hidden": false
+    },
+    "criteria": {
+        "cmd": {
+            "trigger": "minecraft:impossible"
+        }
+    },
+    "rewards": {
+        "function": "freedomcraft:hidden/fcftadv"
+    },
+    "parent": "freedomadvancements:freedomcraft/kupec"
+}
